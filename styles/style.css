@@ -1,0 +1,47 @@
+/* Wild Card, affects everything */
+* {
+    font-size: 16px;
+}
+
+/* 
+    CSS
+
+        Order of operations:
+        - id
+        - class
+        - element
+
+*/
+
+/* Element no prefix */
+h1 {
+    font-size: 24px;
+}
+
+h7 {
+    font-size: 64px;
+}
+
+/* An id, # is the prefix, only for 1 element on the page id="unique"  */
+#title {
+    font-size: 40px;
+
+}
+
+
+/* A css class, . is the prefix, supposed reused class="class-a class-b" */
+.omg {
+    line-height: 1.5;
+}
+
+.header {
+    font-family: Helvetica, Arial;
+}
+
+#birdhouse {
+    width: 250px;
+    height: 227.272727px;
+}
+h3 {
+    font-size: 16px;
+}
